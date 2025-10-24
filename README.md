@@ -1,5 +1,5 @@
-Assistant IA - RAG / NLP / KM / FAISS / Agentic
-Description
+# Assistant IA - RAG / NLP / KM / FAISS / Agentic
+## Description
 
 Ce projet est un assistant intelligent capable de comprendre et répondre aux requêtes des utilisateurs en exploitant plusieurs technologies :
 
@@ -13,35 +13,14 @@ FAISS : moteur de recherche vectorielle pour retrouver rapidement les documents 
 
 Agentic capabilities : capacités d’agir de manière autonome selon les besoins de l’utilisateur.
 
-Architecture
+## Architecture
 
 Le projet est structuré en trois parties principales :
 
-code-globale/
-│
-├── backend/            # API et logique serveur (FastAPI / Python)
-│   ├── routes/         # Endpoints pour chat, documents, utilisateurs, etc.
-│   ├── services/       # Services de gestion NLP, RAG, LLM, etc.
-│   ├── core/           # Configuration et utilitaires
-│   ├── faiss_db/       # Index FAISS et métadonnées
-│   └── requirements.txt
-│
-├── frontend-web/       # Application web React
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── frontend-mobile/    # Application mobile React Native
-│   ├── src/
-│   ├── assets/
-│   └── package.json
-│
-├── models/             # Modèles ML / DL utilisés
-├── data/               # Données pour entraînement / tests
-└── notebooks/          # Jupyter notebooks pour tests et expérimentations
+<img width="1582" height="1192" alt="image" src="https://github.com/user-attachments/assets/8fe78b6d-0b8a-48ae-bb5e-fdc45e984180" />
 
-Installation
-Backend
+## Installation
+### Backend
 
 Créer un environnement virtuel :
 
@@ -58,7 +37,7 @@ Lancer le serveur :
 
 uvicorn backend.main:app --reload
 
-Frontend Web
+### Frontend Web
 
 Installer les dépendances :
 
@@ -70,7 +49,7 @@ Lancer l’application :
 
 npm run dev
 
-Frontend Mobile
+### Frontend Mobile
 
 Installer les dépendances :
 
@@ -82,7 +61,7 @@ Lancer l’application :
 
 npx expo start
 
-Configuration
+## Configuration
 
 Les secrets (API keys, Firebase keys) doivent être placés dans .env et ne jamais être commités.
 
@@ -100,7 +79,7 @@ Interface Web et Mobile pour interagir avec l’assistant.
 
 Capacité agentique pour automatiser certaines tâches.
 
-Contribution
+## Contribution
 
 Forker le dépôt.
 
