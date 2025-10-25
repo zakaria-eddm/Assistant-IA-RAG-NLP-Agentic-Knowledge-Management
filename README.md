@@ -16,8 +16,13 @@ Agentic capabilities : capacités d’agir de manière autonome selon les besoin
 ## Architecture
 
 Le projet est structuré en trois parties principales :
+### Backend
+<img width="576" height="486" alt="image" src="https://github.com/user-attachments/assets/b9cc10d4-8b2b-4368-b16b-5c8dcdbd35dc" />
 
-<img width="1582" height="1192" alt="image" src="https://github.com/user-attachments/assets/8fe78b6d-0b8a-48ae-bb5e-fdc45e984180" />
+### Frontend Web
+
+
+### Frontend Mobile
 
 ## Installation
 ### Backend
