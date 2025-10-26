@@ -107,3 +107,8 @@ Exemple de configuration :
    git push origin feature-nom
    ```
 4. Ouvrez une **Pull Request** pour révision.
+
+## Documentation
+
+- [Rapport complet](https://github.com/user-attachments/files/23148583/rapport.docx)
+
